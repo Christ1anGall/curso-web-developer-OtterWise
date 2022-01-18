@@ -47,27 +47,27 @@ console.log(frutis2)
 
 //slice
 
-const tools = ["tool1", "tool2","tool3", "tool4","tool7","tool10", "tool4","tool7", "tool4","tool7"]
-const toolsPart = tools.slice(0,1);
+const tools = ["tool1", "tool2", "tool3", "tool4", "tool7", "tool10", "tool4", "tool7", "tool4", "tool7"]
+const toolsPart = tools.slice(0, 1);
 
 console.log(toolsPart);
 
 //splice - para adiconar ou para remover
 
 //remover
-tools.splice(1,2)
+tools.splice(1, 2)
 console.log(tools);
 
 //adicionar
 
-tools.splice(6,0, "tools5")
+tools.splice(6, 0, "tools5")
 
 console.log(tools);
 
 
 //reverse
 
-const tiProdutcs =["HD1","DH2","DH5","DH6","DH3"]
+const tiProdutcs = ["HD1", "DH2", "DH5", "DH6", "DH3"]
 tiProdutcs.reverse()
 
 console.log(tiProdutcs);

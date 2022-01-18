@@ -18,7 +18,7 @@ const newArray3 = arrayOne.map((value1)=>{
 })
 
 let finalArray = newArray3.filter((value)=>{
-    return value > 10 || value < -1
+    return value > 1 || value < -1
 })
 
 

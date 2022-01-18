@@ -34,6 +34,8 @@ console.log(part3);
 let text = "Olá alunos Otterwise"
 let netText = text.replace("Otterwise", "do curso web developer");
 
+
+
 console.log(netText);
 console.log(text.replaceAll("Otterwise", "teste"));
 
