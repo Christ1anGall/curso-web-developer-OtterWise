@@ -1,0 +1,1 @@
+export const multiplypeer2 = (value1, value2) => { return value1 * value2 }
