@@ -10,9 +10,9 @@ import axios from 'axios'
 const cepss = generetionCep(29000000, 29099999)
 
 
-const listCep = async (cep) => {
+const listCep = async (cepList) => {
     try {
-        const { data } = await axios.get(`https://viacep.com.br/ws/${cep}/json/`)
+        const { data } = await axios.get(`https://viacep.com.br/ws/${cepList}/json/`)
         return data
 
     } catch (error) {
@@ -25,15 +25,15 @@ const listCep = async (cep) => {
 }
 
 
-
-export const arrayCep = cepss.map((cep) => {
-
-    const { rua, bairro, localidade, estado } = listCep(cep)
+export const arrayCep = cepss.map(async (cepArray) => {
+    const { cep, logradouro, bairro, localidade, uf, ddd } = await listCep(cepArray)
     const dataCep = {
-        rua,
+        cep,
+        logradouro,
         bairro,
         localidade,
-        estado,
+        uf,
+        ddd,
     }
     return dataCep
 
