@@ -14,9 +14,10 @@ const dateNew = new Date()
 
 const formatDate = (data) => {
 
+    return format(dateNew,)
 
 
-    return (getDay(data) + "/" + getMonth(data) + "/" + getYear(data))
+    //return (getDay(data) + "/" + getMonth(data) + "/" + getYear(data))
 
 }
 
