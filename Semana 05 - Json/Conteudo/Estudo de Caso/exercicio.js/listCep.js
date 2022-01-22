@@ -6,6 +6,7 @@
 
 import { generetionCep } from "./generationCep.js"
 import axios from 'axios'
+import fs from 'fs'
 
 const cepss = generetionCep(29000000, 29099999)
 
@@ -25,18 +26,24 @@ const listCep = async (cepList) => {
 }
 
 
-export const arrayCep = cepss.map(async (cepArray) => {
-    const { cep, logradouro, bairro, localidade, uf, ddd } = await listCep(cepArray)
-    const dataCep = {
-        cep,
-        logradouro,
-        bairro,
-        localidade,
-        uf,
-        ddd,
+const arrayCep = cepss.map(async (cepArray) => {
+    try {
+        const { cep, logradouro, bairro, localidade, uf, ddd } = await listCep(cepArray)
+        const dataCep = {
+            cep,
+            logradouro,
+            bairro,
+            localidade,
+            uf,
+            ddd,
+        }
+        console.log(dataCep)
     }
-    return dataCep
+    catch (error) {
+        console.log("error")
+    }
 
 })
+
 
 
