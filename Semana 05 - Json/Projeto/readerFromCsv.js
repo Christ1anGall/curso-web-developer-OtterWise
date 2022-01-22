@@ -1,5 +1,5 @@
 import fs from 'fs'
-import { finished } from 'stream';
+
 
 const lista = fs.readFileSync('./lista.csv', { encoding: 'utf-8', flag: 'r' });
 
@@ -11,25 +11,27 @@ const newLista4 = newLista1[2].split(',')
 const newLista5 = newLista1[3].split(',')
 const newLista6 = newLista1[4].split(',')
 
+
+
 const fileSystemFinal = [{
     [newLista2[0]]: parseInt(newLista3[0]),
     [newLista2[1]]: newLista3[1],
-    [newLista2[2]]: newLista3[2],
+    [newLista2[2]]: "R$" + newLista3[2],
 },
 {
     [newLista2[0]]: parseInt(newLista4[0]),
     [newLista2[1]]: newLista4[1],
-    [newLista2[2]]: newLista4[2],
+    [newLista2[2]]: "R$" + newLista4[2],
 },
 {
     [newLista2[0]]: parseInt(newLista5[0]),
     [newLista2[1]]: newLista5[1],
-    [newLista2[2]]: newLista5[2],
+    [newLista2[2]]: "R$" + newLista5[2],
 },
 {
     [newLista2[0]]: parseInt(newLista6[0]),
     [newLista2[1]]: newLista6[1],
-    [newLista2[2]]: newLista6[2],
+    [newLista2[2]]: "R$" + newLista6[2],
 }
 
 
