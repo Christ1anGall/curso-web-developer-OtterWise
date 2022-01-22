@@ -15,7 +15,7 @@ const fileSystemFinal = novalinha.map((element, index) => {
     return {
         [novalinha[0][0]]: parseInt(element),
         [novalinha[0][1]]: element[1],
-        [novalinha[0][2]]: "R$" + element[2],
+        [novalinha[0][2]]: "R$" + element[2].replace(".", ","),
     }
 })
 
