@@ -3,29 +3,12 @@ Nesse arquivo crie uma função chamada formatDate que recebe uma data como par�
 Esse arquivo deve exportar a função formatDate.
 
 */
-
-
-import getDay from "date-fns/getDay/index.js"
-import getMonth from "date-fns/getMonth/index.js"
-import getYear from "date-fns/getYear/index.js"
-import format from 'date-fns/format/index.js'
+import format from "date-fns/format/index.js"
 
 const dateNew = new Date()
 
-const formatDate = (data) => {
+const newDate = format(dateNew, 'dd/MM/yyyy')
 
-    return format(dateNew,)
-
-
-    //return (getDay(data) + "/" + getMonth(data) + "/" + getYear(data))
-
-}
-
-
-
-
-console.log(formatDate(dateNew))
-console.log(format(dateNew))
-
+console.log(newDate)
 
 
