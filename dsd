@@ -1,0 +1,107 @@
+[33mcommit 05ac1d123749756fc32108f56f3d5a39a7bbda2a[m[33m ([m[1;36mHEAD -> [m[1;32mtratamentFileCsv[m[33m, [m[1;31morigin/tratamentFileCsv[m[33m)[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Tue Jan 25 14:57:44 2022 -0300
+
+    deletado gitignore
+
+[33mcommit f43e04e14ad2823b851eb0d19a57a7cc8613ff22[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Tue Jan 25 14:57:17 2022 -0300
+
+    corrigindo erros 2
+
+[33mcommit 80bbaca295c2ff60265114dc8187aeb046ce36f0[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Tue Jan 25 14:55:17 2022 -0300
+
+    corrigindo erros
+
+[33mcommit b5161898faaeabfceb9542b5a31be8218109dbf3[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Tue Jan 25 14:51:52 2022 -0300
+
+    organizado pastas
+
+[33mcommit 3531c0784711030bd24562f214cfb936c93b8787[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Tue Jan 25 14:37:22 2022 -0300
+
+    adicionado gitignore
+
+[33mcommit c5fa4d4febe43bd4de7b473000d0dab7f5aa26f0[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Sun Jan 23 20:50:47 2022 -0300
+
+    puxando arquivos 14 e 15
+
+[33mcommit 65a32056adfa69fd5ece5c32770f775579b81ec2[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Sat Jan 22 20:49:01 2022 -0300
+
+    corrigido linha 18 para trocar ponto por virgula no campo preço
+
+[33mcommit 0bee13f8a178ca377e3ca104cd90fb15c6e8111f[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Fri Jan 21 21:50:14 2022 -0300
+
+    codigo refatorado para atender espectativas
+
+[33mcommit 08830cec04c3a54b867cd47338aa6ab15581c375[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Fri Jan 21 21:17:02 2022 -0300
+
+    corrigido a falta do R$
+
+[33mcommit a79de3751e073c1c5363bced684f0524d962e351[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Fri Jan 21 21:02:31 2022 -0300
+
+    finalizado primeiro projeto
+
+[33mcommit 27643fe3d0f1f6e0e10172e8e07e02d0d881908f[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Thu Jan 20 23:55:00 2022 -0300
+
+    inserido linha 31 para exibir cep e linha 36 para ddd
+
+[33mcommit 9147e901622779d63c0c51ce1c6cbb2310352d15[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Thu Jan 20 23:30:11 2022 -0300
+
+    exercicio 20012022 - projeto de busca de cep
+
+[33mcommit 0f80b4a629f4f56436e6aec0b9d768eeb09a859e[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Tue Jan 18 22:00:13 2022 -0300
+
+    Semana 05 - Aula Cabulosa
+
+[33mcommit 4da6250dbcac5b6573b2ba2def2e9a358631ecea[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Mon Jan 17 22:30:15 2022 -0300
+
+    exercicos 09 até 10
+
+[33mcommit 6e9483e8e20275450e4cc403daf2188bbfe74874[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Fri Jan 14 21:23:42 2022 -0300
+
+    Create README.md
+
+[33mcommit 7d3621a2327762b207ff908fc0b980396799e277[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Fri Jan 14 20:56:28 2022 -0300
+
+    alterado nome da pasta exercicios da Semana 04
+
+[33mcommit 8ee3f6ebee61ba5f27a75553b54db838000f035b[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Fri Jan 14 20:55:31 2022 -0300
+
+    excluido arquivo exercicios .rar
+
+[33mcommit e764944c2e440f075823af27636764763d6f2973[m
+Author: Christian Gall <christiangall92@icloud.com>
+Date:   Fri Jan 14 20:20:58 2022 -0300
+
+    initial commit
