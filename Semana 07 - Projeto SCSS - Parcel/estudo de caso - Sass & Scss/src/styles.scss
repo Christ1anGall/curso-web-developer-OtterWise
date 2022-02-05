@@ -1,0 +1,187 @@
+$backgroundColor: #171718;
+$borderColor: #26292d;
+$primerycolor: #5c62ec;
+$cardColor: #1c1e22;
+$nameColor:#85bfd1;
+$linkColor: #ffff;
+
+body {
+  margin: 0;
+  background-color: $backgroundColor;
+  font-family: "DM Sans", sans-serif;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 16px;
+  border-bottom: 1px solid $borderColor;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $backgroundColor;
+}
+
+.my-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  &-title {
+    color: white;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    font-weight: 500;
+    max-width: 265px;
+    text-align: center;
+    margin-bottom: 24px;
+    
+    &-name {
+      color: $primerycolor;
+    }
+  }
+
+  .button__solid{
+    margin-bottom: 16px;
+  }
+}
+
+.about{
+    padding: 0 16px 64px 16px;
+    &-card{
+        color: white;
+        background-color:$cardColor;
+        padding: 16px;
+        border-radius: 8px;
+        &-img{
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            
+        }
+        &-title{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            margin-bottom: 16px;
+            margin-top: 24px;
+
+
+        }
+
+        &-description{
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.44px;
+            margin-bottom: 16px;
+        }
+
+
+    }
+
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: 16px;
+    border-top: 1px solid $borderColor;
+
+    &-logo{
+        padding-top: 31px;
+    }
+
+    &-column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 32px;
+        &-name{
+            color: $nameColor;
+            text-align: center;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.15px;
+            padding-bottom: 24px;
+        }
+        &-link{
+            color:  $linkColor;
+            text-align: center;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            
+        }
+    }
+
+    &-copy{
+        border-top: 1px solid $borderColor;
+        width: 100%;
+       margin-top: 48px ;
+       
+        &-text{
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.4px;
+            color: white;
+            padding-top: 16px;
+            text-align: center;
+            padding-bottom: 20px;
+            margin: 0px;
+
+        }
+
+    }
+   
+}
+
+//classes genéricas
+
+.button {
+  border-radius: 5px;
+  height: 48px;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  &__solid {
+    background-color: $primerycolor;
+    padding: 16px;
+    padding-left: 15.5px;
+    padding-right: 15.5px;
+    
+  }
+
+  &__outlined {
+    border: 1px solid #ffff;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  &-text {
+    &__mr-left {
+      margin-left: 8px;
+    }
+    &__mr-right {
+        margin-right: 8px;
+      }
+  }
+
+
+}
