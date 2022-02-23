@@ -1,14 +1,27 @@
-import { useState } from 'react';
-import './App.css';
+import { ThemeProvider } from "./components/context/theme-context";
+import ExemploUseState from "./components/UseState";
+import ExemploUseEffect from "./components/UseEffect";
+import ExercicioHooks from "./components/ExercicioHooks";
+import ExemploUseRef from "./components/UseRef";
+import ExemploMemoECallback from "./components/MemoeCallback";
+import ExemploUseReducer from "./components/UseReducer";
+
+import Exerciciodas21 from "./components/ExercicioDas21"
 
 function App() {
-  const [ count, setCount ] = useState(0);
   return (
-    <div>
-      <p>{count}</p>
-      <button onClick={() => setCount(count + 1)}>+1</button>
-      <button onClick={() => setCount(count - 1)}>-1</button>
-    </div>
+    <ThemeProvider>
+      {/*<ExemploUseState />}
+      {<ExemploUseEffect userId={2} />}
+      
+      {<ExemploUseRef />}
+  {<ExemploMemoECallback />*/}
+      {/*<ExemploUseReducer />*/}
+
+      
+      {<ExercicioHooks />}
+      {<Exerciciodas21 />}
+    </ThemeProvider>
   );
 }
 
