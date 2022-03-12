@@ -15,7 +15,7 @@ function App() {
       <Route path="/posts/:id" element={<Posts />} />
       <Route path="*" element={<p>RoTA não Encontrada. 404</p>} />
       
-      </Routes>
+    </Routes>
   )
 }
 

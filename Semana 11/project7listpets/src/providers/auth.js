@@ -6,11 +6,9 @@ export const authProvider = {
     try {
       const response = await login(data)
       console.log(response)
-      
       const user = {
         token: response.data.token,
         name: response.data.user.name,
-        id: response.data.user.api_code,
       }
       localStorage.setItem('user', JSON.stringify(user))
       callback(user)

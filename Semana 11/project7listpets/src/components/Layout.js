@@ -9,13 +9,10 @@ export default function Layout() {
       <AuthStatus />
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Rota Pública</Link>
         </li>
         <li>
-          <Link to="/private-page">Listar Pets</Link>
-        </li>
-        <li>
-          <Link to="/register-Pets">Registrar um Pet</Link>
+          <Link to="/private-page">Rota Privada</Link>
         </li>
         <li>
           <Link to="/login">Login</Link>
