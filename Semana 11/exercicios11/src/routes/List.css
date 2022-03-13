@@ -1,0 +1,30 @@
+.petList{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+   height: 50vh;
+   width: 50vh;
+    
+    
+
+
+}
+
+.imgPet{
+    max-width: 50vh;
+}
+
+.boxPet{
+    border: 20px;
+    border-color: white;
+ padding-bottom: 150px;
+ display: flex;
+    flex-direction: row;
+}
+.attributesPet{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}

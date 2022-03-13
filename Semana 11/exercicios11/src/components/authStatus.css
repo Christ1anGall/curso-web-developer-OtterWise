@@ -1,0 +1,22 @@
+.userStatus{
+    display: flex;
+   
+    flex-direction: row;
+    align-items: center;
+   
+   
+    
+    
+
+   
+}
+
+.userMessage{
+    padding: 50px;
+}
+
+.userButton{
+    max-width: 50px;
+    max-height: 20px;
+    
+}

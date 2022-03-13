@@ -2,25 +2,21 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 import AuthStatus from './AuthStatus'
+import "./Layout.css"
 
 export default function Layout() {
   return (
-    <div>
+    <div className='navbar'>
       <AuthStatus />
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/private-page">Listar Pets</Link>
-        </li>
-        <li>
-          <Link to="/register-Pets">Registrar um Pet</Link>
-        </li>
-        <li>
-          <Link to="/login">Login</Link>
-        </li>
-      </ul>
+      <div className='list'>
+
+      <Link to="/">Home</Link>
+      <Link to="/private-page">Listar Pets</Link>
+      <Link to="/register-Pets">Registrar um Pet</Link>
+      <Link to="/login">Login</Link>
+        
+      </div>
+     
       <Outlet />
     </div>
   )

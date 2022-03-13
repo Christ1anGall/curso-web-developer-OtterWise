@@ -1,6 +1,7 @@
 import React from 'react'
 import { useAuth } from '../context/auth-context'
 import { useLocation, useNavigate } from 'react-router-dom'
+import "./Login.css" 
 
 export default function Login() {
   const auth = useAuth()
@@ -24,8 +25,8 @@ export default function Login() {
 
   return (
     <div>
-      Login
-      <form onSubmit={handleSubmit}>
+      
+      <form className='form-login' onSubmit={handleSubmit}>
         <label>
           E-mail: <input type="email" name="email" />
         </label>

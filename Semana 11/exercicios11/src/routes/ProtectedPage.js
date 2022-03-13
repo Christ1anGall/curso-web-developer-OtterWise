@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { listPets } from "../services/pets";
+import "./List.css"
 
 export default function ProtectedPage() {
   const [pet, setPet] = useState(null);
@@ -26,16 +27,19 @@ export default function ProtectedPage() {
 
   if (pet)
     return (
-      <div>
-        <p>você tem {pet.length} pets cadastrados </p>
+      <div className="petList">
+        <p  >você tem {pet.length} pets cadastrados </p>
 
-        {pet.map((pets) => <div>   
+        {pet.map((pets) =>
+          <div className="boxPet">   
           
-          <p><img src={pets.url} alt="" /> </p>
-          <p>Nome: {pets.name} </p>
-          <p>Raça: {pets.breed} </p>
-          <p>Idade: {pets.age} </p>
-          <p>Especie: {pets.species} </p>
+            <img className="imgPet" src={pets.url} alt="" id={pets.id} />
+            <div className="attributesPet">   
+          <p id={pets.id }>Nome: {pets.name} </p>
+          <p id={pets.id }>Raça: {pets.breed}  </p>
+          <p id={pets.id }>Idade: {pets.age} </p>
+              <p id={pets.id}>Especie: {pets.species}  </p>
+              </div>
           
         </div>)}
         

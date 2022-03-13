@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { makePets } from "../services/pets";
+import "./registerPet.css"
 
 export default function RegisterPets() {
   const handleSubmit2 = (event) => {
@@ -27,9 +28,10 @@ export default function RegisterPets() {
   };
 
   return (
-    <div>
+    <div >
+      
+      <form className="formCreatePet" onSubmit={handleSubmit2}>
       Cadastre o seu Pet
-      <form onSubmit={handleSubmit2}>
         <label>
           <input type="text" name="name" placeholder="Nome:" />
         </label>
